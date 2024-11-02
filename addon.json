@@ -1,0 +1,25 @@
+{
+	"title"		:	"GP2 Framework - Movies",
+	"type"		:	"ServerContent",
+	"tags"		:	[ "movie" ],
+	"ignore"	:
+	[
+		"materialsrc/*",
+		"modelsrc/*",
+		"mapsrc/*",
+		"resource/fonts/LICENSE.txt",
+		"scripts/soundscapes_*.txt",
+		"tools/*",
+		"*.pcf_broken",
+		".env",
+		".git/*",
+		".gitignore",
+		".gitversion",
+		"venv/*",
+		"publish.bat",
+		"publish.py",
+		"addon.png",
+		"LICENSE",
+		"README.md"
+	]
+}
