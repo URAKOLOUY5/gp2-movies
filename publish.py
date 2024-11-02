@@ -67,11 +67,6 @@ def execute_fastgmad_update(git_commit):
 
     return True
 
-# Write .gitversion
-with open(".gitversion", 'w') as f:
-    dt = datetime.datetime.now()
-    f.write(f"{dt.date()}|{dt.strftime('%I:%M %p')}") 
-
 # Publish to Workshop and send webhook to server
 if not execute_fastgmad_update(get_latest_git_commit()):
     #send_discord_webhook("Failed to publish to workshop")
